@@ -1,4 +1,4 @@
-# Sample Google Cloud Function using Java and Gradle
+# Pubsub Google Cloud function using Java and Gradle
 
 ## Running Locally
 
