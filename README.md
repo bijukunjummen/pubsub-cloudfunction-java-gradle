@@ -18,6 +18,10 @@ curl -v -X "POST" "http://localhost:8083/helloPubSub" \
 ## Deploying the function
 
 ```shell
+# Build the uber jar
+./gradlew shadowJar
+
+# Deploy the jar
 gcloud beta functions deploy java-pubsub-function \
 --gen2 \
 --runtime java17 \
